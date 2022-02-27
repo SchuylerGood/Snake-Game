@@ -171,7 +171,7 @@ pygame.init()
 screen = pygame.display.set_mode((700, 500))
 running = True
 pygame.display.set_caption("Snake")
-pygame.display.set_icon(pygame.image.load('snake_icon.png'))
+pygame.display.set_icon(pygame.image.load('C:\Users\sky34\Desktop\Python\Python Games\Snake Game v2.0\images\other_images\snake_icon.png'))
 
 
 #=#=#=#=#=#=#=#=#=#=#=#=##=#=#=#=#=#=#=#=#=#=#=#=##=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#

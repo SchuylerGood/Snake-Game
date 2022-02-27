@@ -4,6 +4,6 @@ This is one of the first projects I started on my own while learning python in s
 
 ## Libraries Used:
 
-Pygame
-Random
-Time
+ - Pygame
+ - Random
+ - Time
