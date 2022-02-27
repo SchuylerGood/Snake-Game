@@ -14,7 +14,7 @@ def background():
     Parameters: None
     Returns:    None
     """
-    screen.blit(pygame.image.load('Background2.png'), (0,0))
+    screen.blit(pygame.image.load('snake-in-python-repo\images\Background_images\Background2.png'), (0,0))
 
 def snakeHead(x,y):
     """
@@ -171,17 +171,18 @@ pygame.init()
 screen = pygame.display.set_mode((700, 500))
 running = True
 pygame.display.set_caption("Snake")
-pygame.display.set_icon(pygame.image.load('C:\Users\sky34\Desktop\Python\Python Games\Snake Game v2.0\images\other_images\snake_icon.png'))
+pygame.display.set_icon(pygame.image.load('snake-in-python-repo\images\snake_icon.png'))
 
 
 #=#=#=#=#=#=#=#=#=#=#=#=##=#=#=#=#=#=#=#=#=#=#=#=##=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#         Images          #=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 #=#=#=#=#=#=#=#=#=#=#=#=##=#=#=#=#=#=#=#=#=#=#=#=##=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
-snakeHeadImg = pygame.image.load('snake_head2.png')
-snakeBodyImg = pygame.image.load('snake_body.png')
-foodImg = pygame.image.load('burger.png')
-game_over = pygame.image.load('game_over1.png')
-snakeHeadHurt = pygame.image.load('snake_head_hurt.png')
+snakeHeadImg  = pygame.image.load('snake-in-python-repo\images\snake_sprite_images\snake_head2.png')
+snakeBodyImg  = pygame.image.load('snake-in-python-repo\images\snake_sprite_images\snake_body_NS.png')
+snakeHeadHurt = pygame.image.load('snake-in-python-repo\images\snake_sprite_images\snake_head_hurt.png')
+foodImg = pygame.image.load("""snake-in-python-repo\images\icon_burger.png""")
+game_over = pygame.image.load('snake-in-python-repo\images\game_over1.png')
+
 
 snakeHeadRight = pygame.transform.rotate(snakeHeadImg, -90)
 snakeHeadLeft = pygame.transform.rotate(snakeHeadImg, 90)
@@ -193,7 +194,7 @@ snakeHurtLeft = pygame.transform.rotate(snakeHeadHurt, 90)
 snakeHurtDown = pygame.transform.rotate(snakeHeadHurt, 180)
 snakeHurtUp = pygame.transform.rotate(snakeHeadHurt, 0)
 
-snakeBodyNS = pygame.image.load('snake_body_NS.png')
+snakeBodyNS = pygame.image.load('snake-in-python-repo\images\snake_sprite_images\snake_body_NS.png')
 snakeBodyEW = pygame.transform.rotate(snakeBodyNS, 90)
 
 
