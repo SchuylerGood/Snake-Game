@@ -23,7 +23,7 @@ def snakeHead(x,y):
     Returns:    None
     """
     screen.blit(snakeHeadImg, (x,y))
-
+ 
 def snakeBody_NS(snake, previousXChange, previousYChange, going):
     """
     Purpose:    Blits the a snake cell to the window north or south
