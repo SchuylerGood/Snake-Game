@@ -6,3 +6,4 @@ This is one of the first projects I started on my own while learning python in s
 
 Pygame
 Random
+Time
