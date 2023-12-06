@@ -1,9 +1,11 @@
 # Snake Game
 
-This is one of the first projects I started on my own while learning python in school, it is a simple snake game bulit with the pygame library in python. 
+## Description
+This is a re creation of the classic **Snake** game built using Python. It uses Pygame, and has all original art assets. I choose Pygame and Python as the primary language because at the time it was the only language I knew, as I was just starting to get into programming.
 
 ## Libraries Used:
-
  - Pygame
  - Random
  - Time
+
+## Screenshots
